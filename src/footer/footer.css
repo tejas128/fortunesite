@@ -201,6 +201,7 @@ color: #ffffff;
        height: 72px;
        display: flex;
        align-items: center;
+       justify-content: center;
        border-bottom: 1px solid #CCCCCC;
    }
    .footerlink-container{

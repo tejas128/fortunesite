@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Header from "./header/Header"
+import Grid from "./grid/Grid"
+import Hotitems from "./Hotitems/Hotitems"
+import Footer from "./footer/Footer"
+import Catlog from "./catlog/Catlog"
+import Home from './Home/Home';
+import { HashRouter as Router, Switch, Route } from "react-router-dom"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+      <div className="App">
+
+
+        <Router>
+        <div class="body-content">
+          <Header />
+          <Switch>
+            <Route path="/" exact component={Home}/>
+            <Route path="/catlog"  component={Catlog}/>
+            
+          </Switch>
+          <Footer />
+        </div>
+        </Router>
+
+
+
+
+      </div>
+   
   );
 }
 

@@ -1,0 +1,236 @@
+.footer{
+    position: absolute;
+    width:100%;
+    height: 222px;
+    
+    bottom: 0%;
+}
+.footer-top{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 16.67%;
+
+background: #F0F0F0;
+}
+.footer-bottom{
+    
+position: absolute;
+left: 0%;
+right: 0%;
+top: 83.33%;
+bottom: 0%;
+
+background: #6E716E;
+}
+.footer-bottom-text{
+margin: 0px;
+position: absolute;
+left: 38.39%;
+right: 38.33%;
+top: 83.33%;
+bottom: 0%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+
+/* or 186% */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.footerlink-container{
+    position: absolute;
+    right: 63.02%;
+    width: 373px;
+    height: 185px;
+    left:17.55%;
+    display: grid;
+    grid-gap: 31px;
+}
+.footerlinks1{
+    list-style: none;
+    grid-column: 1;
+    position: relative;
+
+ 
+    top: 8.11%;
+    bottom: 68.47%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+}
+.footerlinks2{
+    list-style: none;
+    grid-column: 2;
+    position: relative;
+
+    left: 28.65%;
+    right: 63.02%;
+    top: 8.11%;
+    bottom: 33.33%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+
+}
+li{
+    margin:0px;
+    line-height: 26px;
+}
+.email-input-holder{
+  
+    display: flex;
+    
+    position: absolute;
+    left: 60.42%;
+    right: 22.76%;
+    top: 11.26%;
+    bottom: 74.32%;
+    width: 422px;
+}
+.email-input-box{
+   
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+ 
+  
+    
+   
+
+background: #FFFFFF;
+
+/* Gray 4 */
+border: 1px solid #BDBDBD;
+box-sizing: border-box;
+width: 355px;
+height: 32px;
+}
+.email-input{
+    border: none;
+    width: 184px;
+    height: 32px;
+    
+
+
+/* Roboto Regular 14 */
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+
+/* or 143% */
+display: flex;
+align-items: center;
+
+
+}
+.email-logo-holder{
+    height: 32px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-button{
+  
+    width: 99px;
+    height: 32px;
+    background: #828282;
+    border-radius: 2px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: #ffffff;
+
+}
+@media(max-width:320px){
+   .footerlinks1{
+    grid-row: 1;
+    grid-column: 1;
+    left:0%;
+    right: 0%;
+    top: 0%;
+    
+   }
+   .footerlinks2{
+    grid-row: 2;
+    grid-column: 1;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+   }
+   .footer{
+       position: fixed;
+       bottom: 0%;
+       height: 492px;
+       width: 100vw;
+       border-top:  1px solid #CCCCCC;
+   }
+   .footer-top{
+       height: 378px;
+       top: 14.73%;
+   }
+   .email-input-holder{
+       position: absolute;
+       left: 0%;
+       right: 0%;
+       top: 0%;
+       width: 320px;
+       height: 72px;
+       display: flex;
+       align-items: center;
+       border-bottom: 1px solid #CCCCCC;
+   }
+   .footerlink-container{
+       display: flex;
+       flex-direction: column;
+       position: absolute;
+       left: 0%;
+       right: 0%;
+       grid-gap: 0px;
+       top: 0% ;
+   }
+   .footerlink{
+       line-height: 42px;
+       border-bottom: 1px solid #CCCCCC;
+       left: 11px;
+   }
+   .footer-bottom{
+       top:91.49%;
+       
+   }
+   .footer-bottom-text{
+       font-size: 12px;
+       line-height: 42px;
+       position: absolute;
+     left: 11px;
+    right: 0%;
+    top: 91.49%;
+    bottom: 0%
+   }
+   .email-input-box{
+       width: 200px;
+  
+   }
+   
+}
+

@@ -1,0 +1,157 @@
+.collection-card{
+    position: relative;
+    width: 244px;
+    height: 341px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ccard1{
+    grid-row: 2;
+    grid-column:1 ;
+}
+.ccard2{
+    grid-row: 2;
+    grid-column:2;
+}
+.ccard3{
+    grid-row: 2;
+    grid-column:3 ;
+}
+.ccard4{
+    grid-row: 2;
+    grid-column:4 ;
+}
+.ccard5{
+    grid-row: 3;
+    grid-column:1 ;
+}
+.ccard6{
+    grid-row: 3;
+    grid-column:2 ;
+}
+.ccard7{
+    grid-row: 3;
+    grid-column:3 ;
+}
+.ccard8{
+    grid-row: 3;
+    grid-column:4 ;
+}
+.ccard9{
+    grid-row: 4;
+    grid-column:1 ;
+}
+.card-img-holder{
+    
+    width: 244px;
+    height: 250px;
+    background: #E0E0E0;
+}
+.collection-card-name{
+    width: 106px;
+    height: 20px;
+    margin: 0px;
+   
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+
+/* identical to box height, or 143% */
+text-decoration-line: underline;
+
+/* Gray 3 */
+color: #828282;
+}
+.collection-price{
+    margin: 0px;
+   
+
+/* Roboto Bold 14 */
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+
+/* Gray 2 */
+color: #4F4F4F;
+}
+.collection-reviews{
+    position: relative;
+    left: 8px;
+display: flex;
+align-items: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+/* identical to box height */
+text-decoration-line: underline;
+
+/* Gray 3 */
+color: #828282;
+}
+
+.collectionstar{
+    
+width: 18px;
+height: 18px;
+
+
+}
+.rating-reviews-holder{
+    display: flex;
+    
+}
+@media(max-width:320px){
+    .views-button-holder{
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .sort-by-button{
+        grid-row: 1;
+        grid-column: 2;
+    }
+    .ccard1{
+        grid-row: 2;
+        grid-column:1 ;
+    }
+    .ccard2{
+        grid-row: 2;
+        grid-column:2;
+    }
+    .ccard3{
+        grid-row: 3;
+        grid-column:1 ;
+    }
+    .ccard4{
+        grid-row: 3;
+        grid-column:2 ;
+    }
+    .ccard5{
+        grid-row: 4;
+        grid-column:1 ;
+    }
+    .ccard6{
+        grid-row: 4;
+        grid-column:2 ;
+    }
+    .ccard7{
+        grid-row: 5;
+        grid-column:1 ;
+    }
+    .ccard8{
+        grid-row: 4;
+        grid-column:2 ;
+    }
+    .ccard9{
+        grid-row: 5;
+        grid-column:1 ;
+    }
+}

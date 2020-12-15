@@ -1,5 +1,5 @@
 .App {
-
+   overflow: hidden;
   position: absolute;
   width: 1920px;
   height: 2904px;

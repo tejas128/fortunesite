@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/tejas128/fortunesite/static/css/main.a1c83d1c.chunk.css",
-    "main.js": "/tejas128/fortunesite/static/js/main.e34b44e6.chunk.js",
-    "main.js.map": "/tejas128/fortunesite/static/js/main.e34b44e6.chunk.js.map",
-    "runtime-main.js": "/tejas128/fortunesite/static/js/runtime-main.3db374ba.js",
-    "runtime-main.js.map": "/tejas128/fortunesite/static/js/runtime-main.3db374ba.js.map",
-    "static/js/2.cff4456a.chunk.js": "/tejas128/fortunesite/static/js/2.cff4456a.chunk.js",
-    "static/js/2.cff4456a.chunk.js.map": "/tejas128/fortunesite/static/js/2.cff4456a.chunk.js.map",
-    "index.html": "/tejas128/fortunesite/index.html",
-    "static/css/main.a1c83d1c.chunk.css.map": "/tejas128/fortunesite/static/css/main.a1c83d1c.chunk.css.map",
-    "static/js/2.cff4456a.chunk.js.LICENSE.txt": "/tejas128/fortunesite/static/js/2.cff4456a.chunk.js.LICENSE.txt"
+    "main.css": "/fortunesite/static/css/main.a1c83d1c.chunk.css",
+    "main.js": "/fortunesite/static/js/main.e34b44e6.chunk.js",
+    "main.js.map": "/fortunesite/static/js/main.e34b44e6.chunk.js.map",
+    "runtime-main.js": "/fortunesite/static/js/runtime-main.5de367d8.js",
+    "runtime-main.js.map": "/fortunesite/static/js/runtime-main.5de367d8.js.map",
+    "static/js/2.cff4456a.chunk.js": "/fortunesite/static/js/2.cff4456a.chunk.js",
+    "static/js/2.cff4456a.chunk.js.map": "/fortunesite/static/js/2.cff4456a.chunk.js.map",
+    "index.html": "/fortunesite/index.html",
+    "static/css/main.a1c83d1c.chunk.css.map": "/fortunesite/static/css/main.a1c83d1c.chunk.css.map",
+    "static/js/2.cff4456a.chunk.js.LICENSE.txt": "/fortunesite/static/js/2.cff4456a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3db374ba.js",
+    "static/js/runtime-main.5de367d8.js",
     "static/js/2.cff4456a.chunk.js",
     "static/css/main.a1c83d1c.chunk.css",
     "static/js/main.e34b44e6.chunk.js"

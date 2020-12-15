@@ -266,7 +266,7 @@ right: 12.5%;
 top: 93.67%;
 bottom: 16.67%;
 }
-@media(max-width:320px){
+@media(max-width:375px){
     .hotitems-container{
         width: 100vw;
         left: 0%;

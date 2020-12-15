@@ -861,7 +861,7 @@ line-height: 14px;
 /* Gray 3 */
 color: #828282;
 }
-@media(max-width:340px){
+@media(max-width:375px){
     .collection-container{
         top: 122px;
         left: 0%;
@@ -934,5 +934,29 @@ color: #828282;
     .up-sign{
         position: relative;
         left: 20px;
+    }
+    .collection-name{
+        position: absolute;
+width: 300px;
+height: 26px;
+left: 10px;
+top: 83px;
+
+/* Roboto Light 22 */
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+
+/* identical to box height */
+display: flex;
+align-items: center;
+
+/* Gray 3 */
+color: #828282;
+    }
+    .nav-track{
+        display: none;
     }
 }

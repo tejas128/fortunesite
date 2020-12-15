@@ -92,7 +92,7 @@ h3{
     font-size: 32px;
     line-height: 37px;  
 }
-@media(max-width:320px){
+@media(max-width:375px){
  .grid-container{
     left: 0px;
     right: 0px;
@@ -103,33 +103,33 @@ h3{
     justify-content: space-between;
 }
 .item1{
-    width: 320px;
+    width: 100vw;
     height: 410px;
     
 }
 .item2{
-    width: 320px;
+    width: 100vw;
     height: 519px;
    
 }
 
 .item3{
-    width: 320px;
+    width: 100vw;
     height: 301px;
    
 }
 .item4{
-    width: 320px;
+    width: 100vw;
 height: 336px;
     
 } 
 .item5{
-    width: 320px;
+    width: 100vw;
 height: 464px;
     
 }
 .item6{
-    width: 320px;
+    width: 100vw;
    height: 250px;
     
 }

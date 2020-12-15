@@ -52,7 +52,7 @@ justify-content: center;
 /* Gray 3 */
 color: #828282;
 }
-@media(max-width:320px){
+@media(max-width:375px){
     .homestyle{
         width:100vw;
         height: 4090px;

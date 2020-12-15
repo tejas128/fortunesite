@@ -173,7 +173,7 @@ bottom: 44.2%;
 .collapse-button{
     display: none;
 }
-@media(max-width:320px)
+@media(max-width:375px)
 {
     .collapse-button{
         display: block;
@@ -188,6 +188,7 @@ bottom: 44.2%;
     }
     .header-bottom{
         position: absolute;
+        width: 100vw;
 left: 0%;
 right: 0%;
 top: 100%;

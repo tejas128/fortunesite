@@ -173,7 +173,7 @@ bottom: 44.2%;
 .collapse-button{
     display: none;
 }
-@media(max-width:375px)
+@media(max-width:414px)
 {
     .collapse-button{
         display: block;
@@ -223,7 +223,7 @@ border: 1px solid #CCCCCC;
     right: 0%;
    top: 0%;
    bottom: 0%;
-    width: 320px;
+    width: 100vw;
     height: 64px;
     background: #FFFFFF;
     }
@@ -256,5 +256,8 @@ bottom: 8.33%;
         right: 75.79%;
         top: 37.02%;
         bottom: 22.76%; 
+    }
+    .logo-name{
+        display: none;
     }
 }

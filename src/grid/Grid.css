@@ -92,7 +92,7 @@ h3{
     font-size: 32px;
     line-height: 37px;  
 }
-@media(max-width:375px){
+@media(max-width:414px){
  .grid-container{
     left: 0px;
     right: 0px;
